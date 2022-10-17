@@ -1,0 +1,294 @@
+nav{
+    background-color: #007bff
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.add{
+    color: #0020a1 ;
+}
+h2{
+    margin-top: 30px;
+    color: #0020a1;
+    text-align: center;
+    text-decoration: underline;
+}
+h5{
+    color: #0020a1;
+    text-align: center;
+}
+h4{
+    margin-top: 30px;
+    color: #0020a1;
+    text-align: left;
+    /* text-decoration: underline; */
+}
+p{
+    color: #0020a1;
+}
+.img1{
+    width: 252px;
+    height: 252px;
+    margin-right: 25px;
+}
+.imgCart{
+    width: 200px;
+    height: 200px;
+    /* margin-right: 25px; */
+}
+p{
+    text-align: center;
+}
+.imageDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.view:hover{
+    color:#00c3ff ;
+    cursor: pointer ;
+}
+.close{
+    color: firebrick;
+}
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
+.delete{
+    color: firebrick;
+    margin-right: 5px;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}
+.edit{
+    color:cadetblue;
+    margin-right: 5px;
+
+}
+.edit:hover{
+    color:green;
+    cursor:pointer;
+}
+.sale{
+    color:#0020a1;
+}
+.sale:hover{
+    cursor: pointer;
+    color: #00c3ff;
+}
+/* .itemp{
+    text-align: left !important;
+} */
+.modalimg{
+    width: 450px;
+    height: 450px;
+}
+/* .radio{
+    text-align: center;
+} */
+label{
+    color:#0020a1;
+}
+#size{
+    text-align: center;
+}
+.sizeBtn{
+    margin: 15px;
+    padding: 6px;
+    color:#0020a1;
+    border: 1px solid #0020a1;
+    background-color: white;
+}
+.sizeBtn:hover{
+    color:#00c3ff;
+    border: 1px solid #00c3ff;
+    cursor: pointer;
+}
+.sizeBtn:focus{
+    color: red;
+}
+h1{
+    color:#0020a1;
+}
+/* .table1{
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+table, td, th{
+    margin-top: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+.yes{
+background-color: rgb(0, 153, 255);
+color: white;
+padding: 7px;
+}
+.yes:hover{
+cursor: pointer;
+}
+.no{
+padding: 7px;
+color:white;
+background-color: red;
+}
+.no:hover{
+cursor: pointer;
+}
+.fa-exclamation-triangle{
+color:deepskyblue;
+}
+.fa-times-circle:hover{
+cursor: pointer;
+color:darkred;
+}
+.fa-times-circle{
+color: red;
+}
+.displayNone{
+    display: none;
+}
+.table{
+    margin-top: 50px;
+}
+#cancel{
+    background-color: red;
+    color: white;
+    margin-bottom: 40px;
+    padding: 7px;
+}
+#cancel:hover{
+    cursor: pointer;
+}
+#comfirm{
+    background-color: #007bff;
+    color: white;
+    padding: 7px;
+}
+#comfirm{
+    cursor: pointer;
+}
+.fa-shopping-cart{
+    color:rgb(0, 153, 255)
+}
+#saleBtn{
+    color: white;
+    background-color: #007bff;
+    padding: 7px;
+    margin: 10px;
+}
+#saleBtn:hover{
+    cursor: pointer;
+}
+#saleCancel{
+    color: white;
+    background-color: red;
+    margin: 10px;
+
+}
+#saleCancel:hover{
+    cursor: pointer;
+}
+/* .item{
+    border: 1px solid #0020a1;
+    margin-right: 10px;
+} */
+/* .container{
+    background-color: white;
+}
+body{
+    background-color: #007bff;
+} */
+.parallax {
+    /* The image used */
+    background-image: url('../items/mcdo169.jpg');
+  
+    /* Full height */
+    min-height: 300px; 
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#Carts{
+    cursor: pointer;
+    color: white;
+}
+.ruban{
+    background-color: #007bff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#ruban1{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+#add{
+    margin-top: 25px;
+    color: white;
+    background-color: #007bff;
+    padding: 7px;
+}
+.cartImg{
+    width: 170px;
+    height: 170px;
+    margin-left: 55px;
+}
+.btns{
+    text-align: right;
+    margin-right: 105px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #0020a1;
+    text-align: center;
+}
+#cancel{
+    margin-top: 30px;
+    margin-top: 25px;
+    color: white;
+    background-color: red !important;
+    padding: 7px;
+}
+nav{
+    background-color: #007bff
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+#submit{
+    margin-top: 25px;
+    color: white;
+    background-color: #007bff;
+    padding: 7px;
+}
+/* #fileToUpload{
+    margin-top: 25px;
+    color: white;
+    background-color: #007bff;
+    padding: 7px;
+} */
+.btns{
+    text-align: right;
+    margin-right: 105px;
+}
